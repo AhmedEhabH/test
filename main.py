@@ -1,2 +1,4 @@
-print('Hello')
-print("Hi")
+import student
+
+s = student.Student()
+print(s.hi())

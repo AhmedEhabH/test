@@ -1,4 +1,7 @@
 import student
+import staff
 
-s = student.Student()
-print(s.hi())
+stu = student.Student()
+print(stu.hi())
+sta = staff.Staff()
+print(sta.hello())
